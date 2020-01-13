@@ -40,7 +40,7 @@ mainHome = (() => {
             $.getScript(joinchoicejs),
              $.getScript(hotelMainVuejs),
             $.getScript(hotelHomejs),
-            $.getScript(hotelDetailjs),
+            $.getScript(hotelDetailjs)
         ).done(() => {
             setContentView()
             btnVowel()

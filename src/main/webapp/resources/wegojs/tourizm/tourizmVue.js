@@ -52,7 +52,7 @@ tourizmVue = {
 							   	top : 0px;
 							   	width : 40px;
 							   	height : 80px;">
-                                    <button id = "heart1" style ="height:30px; width:30px; background : none; border: none; float : right;">
+                                    <button id = "heart1" style ="height:60px; width:60px; background : none; border: none; float : right;">
                                     <img src = "/web/resources/wegoimg/tourlistimg/beforeheart.png"></button>
                               </div>
 							  <div class = "good">
@@ -447,17 +447,9 @@ tourizmVue = {
         height : 80%;
         float: right;
         box-sizing: border-box;
-	  border: 1px solid black;"> 
-	 
-
-
-
-
-		</div>
-      <div class="stickycss" style="  display: inline-block;  position: sticky;   top: 20%;  width: 80px;  height: 80px; margin-left:5%;">	
-	  <div id="map" style="margin-right:2%;margin-left:5%;margin-top:20%;width:500px;height:400px;"></div>
-	  <p id="result"></p> 
-	 </div>
+        border: 1px solid black;">kakao Map 
+            </div>
+            
            <div id = "dijkstra" style="
 	text-align: center;
 	position : center;

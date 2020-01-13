@@ -8,7 +8,7 @@ tourizmDijkstra = (()=>{
 		let mainHomejs
 		let mainVuejs
 		let tourizmDijkstraVuejs
-		let mapjs
+		let tourizmjs
 		let init = () =>{
 			context = $.ctx()
 			js = $.js() 
@@ -16,20 +16,18 @@ tourizmDijkstra = (()=>{
 			mainHomejs = js + '/cmm/mainHome.js'
 			mainVuejs = js + '/vue/mainVue.js'
 			tourizmDijkstraVuejs = js + '/tourizm/tourizmDijkstraVue.js'
-			mapjs = js + '/crew/js/map.js'
+			tourizmjs = js + '/tourizm/tourizm.js'
 		}
 		
 		let onCreate = () =>{
+			alert('dijkstra')
 			init()
 			$.when(
 					$.getScript(mainVuejs),
-					$.getScript(tourizm_Vuejs),
-					$.getScript(tourizmDijkstraVuejs),
-					$.getScript(mapjs)
-
+					$.getScript(tourizm_Vuejs)
 			).done(()=>{
 				setContentView()
-				map.onCreate()
+				
 			}).fail(()=>{
 				alert(WHEN_ERR)
 			})
@@ -38,6 +36,10 @@ tourizmDijkstra = (()=>{
 		let setContentView = () =>{
 			$('#mainbody').html(tourizmDijkstraVue.tourizmDijkstraVue_body())
 			$('html').scrollTop(0)
+			$('#tourizm_btn').click(()=>{
+				alert('가보자')
+				tourizm.onCreate()
+			})
 		}
 		return {onCreate}
 })()

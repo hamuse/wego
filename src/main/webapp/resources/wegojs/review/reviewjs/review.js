@@ -24,7 +24,7 @@ review = (()=>{
             $.getScript(write),
             $.getScript(search),
 		
-			$.getScript(reviewmainvue),	
+			$.getScript(reviewmainvue)
 
         ).done(() => {   
             setContentView()

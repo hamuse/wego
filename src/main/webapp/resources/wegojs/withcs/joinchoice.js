@@ -21,7 +21,7 @@ joinchoice=(()=>{
 			
 			$.getScript(joinchoicevuejs),
 			$.getScript(userjoinjs),
-			$.getScript(hostjoinjs),
+			$.getScript(hostjoinjs)
 			
 
 		).done(()=>{

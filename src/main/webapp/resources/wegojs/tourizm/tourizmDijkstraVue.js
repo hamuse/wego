@@ -16,11 +16,14 @@ tourizmDijkstraVue = {
         height : 80%;
         float: right;
         box-sizing: border-box;
-        border: 1px solid black;">
-    
-      
-     
-     </div>      
+        border: 1px solid black;">kakao Map 
+            </div>
+             <div id = "tourizmgogo" style="
+	text-align: center;
+	position : center;
+	margin-top : 10px;">
+      	<button id = "tourizm_btn">관광지로 이동</button>
+		</div>
       </div>`
 		}
 }
