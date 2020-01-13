@@ -27,7 +27,7 @@ tourizm =(()=>{
 					$.getScript(tourizmDijkstrajs)
 					
 			).done(()=>{
-				alert('tourizm 성공//')
+				alert('tourizm 성공////')
 				setContentView()
 				gotourizmDijkstra()
 				heart()
