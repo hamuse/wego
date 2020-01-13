@@ -13,6 +13,7 @@ public class Proxy<T> {
 	public String string(Object t) {
 		Function<Object, String> f = String :: valueOf;
 		return f.apply(t);
+//		
 	}
 	public int integer(String s) {
 		Function<String, Integer>f = Integer :: parseInt;
