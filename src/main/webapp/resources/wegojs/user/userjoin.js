@@ -12,6 +12,7 @@ userjoin=(()=>{
 		userjoinvuejs = js + '/user/userjoin_vue.js'
 		mainVuejs = js +'/vue/mainVue.js'
 		mainHomejs = js + '/cmm/mainHome.js'
+		//////test111
 	}
 	let onCreate=()=>{
 		init()
