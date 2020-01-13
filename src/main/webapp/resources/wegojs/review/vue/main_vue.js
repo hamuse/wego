@@ -1,7 +1,15 @@
 var main_vue = main_vue || {}
 main_vue = {
+  head:()=>{return `
+    <head>
+   <link href="/web/resources/wegojs/review/css/agency.min.css" rel="stylesheet">
+    <link href="/web/resources/wegojs/review/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  </head>
+  `},
   review:()=>{return `	
+
 <div  ><button id = "create" >생성우와아아아아</button></div>
+
 
   <section class="breadcrumb breadcrumb_bg">
         <div class="container">

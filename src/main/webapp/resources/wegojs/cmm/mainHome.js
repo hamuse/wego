@@ -7,8 +7,8 @@ mainHome = (() => {
     let crewjs,introjs; //crew
     let tourizmjs; // tourizm
     let reviewjs; // review
-    let loginjs,mypagejs,joinchoicejs;
-    let hotelMainVuejs, hotelHomejs,hotelDetailjs;
+    let loginjs,mypagejs,joinchoicejs;//cs
+    let hotelMainVuejs, hotelHomejs,hotelDetailjs;//hotel
 
     let init = () => {
         context = $.ctx()
