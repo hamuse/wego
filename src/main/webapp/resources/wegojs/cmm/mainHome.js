@@ -21,7 +21,7 @@ mainHome = (() => {
         reviewjs = js +'/review/reviewjs/review.js'
         loginjs = js + '/withcs/login.js'
         mypagejs = js + '/withcs/mypage.js'
-        joinchoicejs = js + '/withcs/joinchoice.js'
+        joinchoicejs = js +'/withcs/joinchoice.js'
         hotelMainVuejs = js+'/hotel/hVue/hotelMainVue.js'
       	hotelHomejs = js+'/hotel/hotelHome.js'
       	hotelDetailjs = js+'/hotel/hotelDetail.js'
